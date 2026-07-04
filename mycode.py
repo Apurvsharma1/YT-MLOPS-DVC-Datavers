@@ -13,6 +13,10 @@ df = pd.DataFrame(data)  # This will print the DataFrame
 new_row_loc = { 'Name': 'David', 'Age': 40, 'City': 'Houston'}
 df.loc[len(df.index)] = new_row_loc
 
+# Adding new row to df for V3
+new_row_loc2 = { 'Name': 'Eva', 'Age': 28, 'City': 'Seattle'}
+df.loc[len(df.index)] = new_row_loc2
+
 
 
 
