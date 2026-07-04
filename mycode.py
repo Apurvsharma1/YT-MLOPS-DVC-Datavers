@@ -9,7 +9,9 @@ data = {'Name': ['Alice','Bob','Charlie'],
 print(type(data))  # This will print the column names of the DataFram
 df = pd.DataFrame(data)  # This will print the DataFrame
 
-
+# Adding new row to df for V2
+new_row_loc = { 'Name': 'David', 'Age': 40, 'City': 'Houston'}
+df.loc[len(df.index)] = new_row_loc
 
 
 
